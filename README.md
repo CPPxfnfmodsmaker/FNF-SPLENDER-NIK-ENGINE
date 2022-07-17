@@ -74,7 +74,7 @@ _____________________________________
 * You can add a head icon, name, description and a Redirect link for when the player presses Enter while the item is currently selected.
 
 ## Awards/Achievements
-* I will remove archievements in 0.2.9
+* I will remove archievements in next release
 
 ## Options menu:
 * You can change Note colors, Delay and Combo Offset, Controls and Preferences there.
