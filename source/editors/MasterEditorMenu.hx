@@ -21,12 +21,12 @@ using StringTools;
 class MasterEditorMenu extends MusicBeatState
 {
 	var options:Array<String> = [
-		'Week Editoxxxr',
-		'Menu Character Edxxxxxitor',
-		'Dialogue Editxxxxxor',
-		'Dialogue Portrait Edixxxxtor',
-		'Character Edixxxxxtor',
-		'Chart Edixxxtor'
+		'Week Editor',
+		'Menu Character Editor',
+		'Dialogue Editor',
+		'Dialogue Portrait Editor',
+		'Character Editor',
+		'Chart Editor'
 	];
 	private var grpTexts:FlxTypedGroup<Alphabet>;
 	private var directories:Array<String> = [null];
