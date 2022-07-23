@@ -23,7 +23,7 @@ class MasterEditorMenu extends MusicBeatState
 	var options:Array<String> = [
 		'Week Editpr',
 		'Menu Character Editor',
-		'Dialogue Editxxxxxor',
+		'Dialogue Editor',
 		'Dialogue Portrait Editor',
 		'Character Editor',
 		'Chart Editor'
@@ -176,11 +176,11 @@ class MasterEditorMenu extends MusicBeatState
 	
 		WeekData.setDirectoryFromWeek();
 		if(directories[curDirectory] == null || directories[curDirectory].length < 1)
-			directoryTxt.text = '<MAIN MENU BACKKKKKKK>';
+			directoryTxt.text = '<NO MOD DIRECTORY LOADED / NO MODS>';
 		else
 		{
 			Paths.currentModDirectory = directories[curDirectory];
-			directoryTxt.text = '< yayy>';
+			directoryTxt.text = '<MOD LOADED>';
 		}
 		directoryTxt.text = directoryTxt.text.toUpperCase();
 	}
