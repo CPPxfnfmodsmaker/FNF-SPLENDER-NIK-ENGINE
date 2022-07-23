@@ -21,9 +21,9 @@ using StringTools;
 class MasterEditorMenu extends MusicBeatState
 {
 	var options:Array<String> = [
-		'Week Editor',
+		'Week Editpr',
 		'Menu Character Editor',
-		'Dialogue Editor',
+		'Dialogue Editxxxxxor',
 		'Dialogue Portrait Editor',
 		'Character Editor',
 		'Chart Editor'
@@ -65,7 +65,7 @@ class MasterEditorMenu extends MusicBeatState
 		add(textBG);
 
 		directoryTxt = new FlxText(textBG.x, textBG.y + 4, FlxG.width, '', 32);
-		directoryTxt.setFormat(Paths.font("muffninja.otf"), 32, FlxColor.WHITE, CENTER);
+		directoryTxt.setFormat(Paths.font("vcr"), 32, FlxColor.WHITE, CENTER);
 		directoryTxt.scrollFactor.set();
 		add(directoryTxt);
 		
@@ -176,11 +176,11 @@ class MasterEditorMenu extends MusicBeatState
 	
 		WeekData.setDirectoryFromWeek();
 		if(directories[curDirectory] == null || directories[curDirectory].length < 1)
-			directoryTxt.text = '< I will remove this in 0.2.9>';
+			directoryTxt.text = '<MAIN MENU BACKKKKKKK>';
 		else
 		{
 			Paths.currentModDirectory = directories[curDirectory];
-			directoryTxt.text = '< I will remove this in 0.2.9>';
+			directoryTxt.text = '< yayy>';
 		}
 		directoryTxt.text = directoryTxt.text.toUpperCase();
 	}
